@@ -1,0 +1,35 @@
+:root{
+    --color-primary:#4F4F4F;
+    --color-secondary:#333333;
+
+    --color-text-action:#FEFEFE;
+    --color-background-aktion:#66ac66;
+
+    --color-heading-title:#F3B562;
+    --color-heading-subtitle:#647B64;
+}
+
+body{
+    color: var(--color-primary)
+}
+
+.header-link{
+    color: var(--color-secondary)
+}
+
+.button{
+    color: var(--color-text-action);
+    background-color: var(--color-background-aktion);
+}
+
+.hero-title{
+    color: var(--color-secondary)
+}  
+
+.heading-title{
+color: var(--color-heading-title);
+}
+
+.heading-subtitle{
+color: var(--color-heading-subtitle);
+}
